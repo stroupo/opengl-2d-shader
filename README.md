@@ -1,15 +1,46 @@
-# OpenGL 2D Shader
-Simple Test Application to Demonstrate 2D GPGPU-based Rendering
+<h1 align="center">
+    OpenGL 2D Shader
+</h1>
+
+<p align="center">
+    Simple Test Application to Demonstrate 2D GPGPU-based Rendering
+</p>
 
 ## Requirements
-- C++ Standard: C++17
-- C++ Compiler: GCC | Clang | Nuwen MinGW | MinGW | MSVC
-- Operating System: Linux | Windows
-- Build System: [build2](https://build2.org) >= 0.13.0
-- Libraries:
-    + [glbinding](https://glbinding.org/) ^ 3.1.0
-    + [GLFW](https://www.glfw.org/) ^ 3.3.4
-    + [GLM](https://glm.g-truc.net/0.9.9/index.html) ^ 0.9.9
+<b>
+<table>
+    <tr>
+        <td>Language Standard:</td>
+        <td>C++17</td>
+    </tr>
+    <tr>
+        <td>Compiler:</td>
+        <td>
+            GCC | Clang | MinGW | Nuwen MinGW | MSVC
+        </td>
+    </tr>
+    <tr>
+        <td>Build System:</td>
+        <td>
+            <a href="https://build2.org/">build2</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Operating System:</td>
+        <td>
+            Linux | Windows
+        </td>
+    </tr>
+    <tr>
+        <td>Dependencies:</td>
+        <td>
+            <a href="https://glbinding.org/">glbinding</a> ^ 3.1.0<br>
+            <a href="https://www.glfw.org/">GLFW</a> ^ 3.4.1<br>
+            <a href="https://glm.g-truc.net/0.9.9/index.html">GLM</a> ^ 0.9.9.8
+        </td>
+    </tr>
+</table>
+</b>
 
 ## Build and Run with build2
 ### Linux
@@ -59,3 +90,15 @@ Call the following command inside the developer prompt of the MSVC.
 
 ## Usage
 - Escape: Quit the program.
+
+## References
+- [Learn OpenGL](https://learnopengl.com/Getting-started/OpenGL)
+- [opengl-tutorial](https://www.opengl-tutorial.org/)
+- [build2 Toolchain Introduction](https://build2.org/build2-toolchain/doc/build2-toolchain-intro.xhtml)
+- [build2 Build System Manual](https://build2.org/build2/doc/build2-build-system-manual.xhtml)
+- [nuwen.net MinGW Distro](https://nuwen.net/mingw.html)
+- [glbinding](https://glbinding.org/)
+- [GLFW](https://www.glfw.org/)
+- [GLM](https://glm.g-truc.net/0.9.9/index.html)
+- [Khronos OpenGL Reference Pages](https://www.khronos.org/registry/OpenGL-Refpages/)
+- [GLSL Language Specification](https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.50.pdf)
