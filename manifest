@@ -1,0 +1,19 @@
+: 1
+name: opengl-2d-shader
+version: 0.1.0-a.0.z
+project: stroupo
+summary: Simple Test Application to Demonstrate 2D GPGPU-based Rendering
+license: GPL-3.0-or-later
+
+description-file: README.md
+url: https://github.com/stroupo/opengl-2d-shader
+email: lyrahgames@mailbox.org
+
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0
+
+requires: c++17
+requires: linux | windows
+requires: glbinding ^ 3.1.0
+requires: glfw ^ 3.3.4
+requires: glm ^ 0.9.9
